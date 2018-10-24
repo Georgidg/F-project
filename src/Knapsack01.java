@@ -54,7 +54,7 @@ public class Knapsack01{
 	}
 
 	public static void TheOriginalKnapsack(int[] v, int[] w, int LimitOfWeight) {
-		int Mat[][]=new int [v.length][LimitOfWeight];
+		int Mat[][]=new int [v.length+1][LimitOfWeight+1];
 
 		for(int i=1;i<Mat.length;i++) {
 			for (int j = 1; j < Mat[0].length; j++) {
