@@ -5,6 +5,12 @@ public class test {
 		// TODO Auto-generated method stub
 		easyTest();
 		difficultTest();
+//			int v []={4,8,7,1,2,10};
+//			int w []={9,6,3,4,5,2};
+//			int a=15;
+//			TheOriginalKnapsack(v,w,a);
+
+		
 	}
 	
 	public static void easyTest(){
@@ -13,7 +19,7 @@ public class test {
 		int t=5;
 		int s=2;
 
-		Knapsack01.Knapsack(p,w,s,t); 
+		Knapsack01.N_RESProblem(p,w,s,t); 
 	}
 	public static void difficultTest(){
 		int p[] = {4,8,7,1,2,10,0};
@@ -21,6 +27,6 @@ public class test {
 		int t=5;
 		int s=4;
 
-		Knapsack01.Knapsack(p,w,s,t);
+		Knapsack01.N_RESProblem(p,w,s,t);
 	}
 }
