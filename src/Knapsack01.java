@@ -4,18 +4,13 @@ import java.util.Arrays;
 public class Knapsack01{
 
 	public static void main(String args[]){
-		int v[] = {4,8,7,1,2,10,0};
-		int w[] = {9,6,3,4,5,2,0};
-		int t=5;
-		int MaxWeight=15;
-
-		Knapsac(v,w,MaxWeight,t);
+		
 
 	}
 
 
-	public static void Knapsac(int[] v, int[] w,int MaxWeight,int t) {
-		long Mat[][]= new long[v.length][MaxWeight];
+	public static void Knapsack(int[] v, int[] w,int s,int t) {
+		long Mat[][]= new long[v.length][s];
 
 		long notAdded=0;
 		long Ak=0;//The sum of all the weights we have passed
