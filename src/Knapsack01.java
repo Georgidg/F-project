@@ -72,6 +72,10 @@ public class Knapsack01{
 			System.out.println(Arrays.toString(Mat[i]));
 		}
 	}
+	
+	public  static void SymmetricQuadraticKnapsackProblem(int[] alfa, int[] beta, int[] u, int[] v, int r, int A){
+		
+	}
 }
 
 
