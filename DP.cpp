@@ -101,7 +101,7 @@ int main(){
     unsigned int p[] = {6, 9, 8, 12, 7, 10, 6, 14, 24, 35, 32, 10, 20, 8, 19, 36, 38, 45, 12, 32};
     unsigned int w[] = {22, 24, 21, 21, 12, 16, 9, 10, 17, 21, 17, 5, 10, 4, 9, 16, 12, 14, 2, 3};
     unsigned int s = 76;
-    unsigned int t = 153;
+    unsigned int t = 153 + 76;
     int* x = N_RESProblem(p, w, n, s, t, min);
     printSolution(p, n, t, min, x);
     delete [] x;
